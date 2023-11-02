@@ -8,7 +8,7 @@ RUN apt-get update -y && apt-get upgrade -y
 RUN apt-get install -y python3 python3-pip
 
 # Install Flask using pip3
-RUN pip install flask
+RUN pip install Flask
 
 # Create a directory for your app
 WORKDIR /app
