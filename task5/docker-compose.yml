@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile
     image: softy-pinko-back-end:task4
 
+
   front-end:
     build:
       context: ./front-end
@@ -13,7 +14,8 @@ services:
     image: softy-pinko-front-end:task4
     depends_on:
       - back-end
-
+  
+  
   proxy:
     build:
       context: ./proxy
