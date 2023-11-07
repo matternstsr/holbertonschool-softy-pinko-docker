@@ -13,3 +13,4 @@ services:
       dockerfile: Dockerfile
     image: softy-pinko-front-end:task4
     ports:
+      - "9000:9000"
