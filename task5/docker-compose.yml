@@ -4,14 +4,14 @@ services:
     build:
       context: ./back-end
       dockerfile: Dockerfile
-    image: softy-pinko-back-end:task4
+    image: softy-pinko-back-end:task5
 
 
   front-end:
     build:
       context: ./front-end
       dockerfile: Dockerfile
-    image: softy-pinko-front-end:task4
+    image: softy-pinko-front-end:task5
     depends_on:
       - back-end
   
